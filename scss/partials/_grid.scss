@@ -172,12 +172,13 @@ $gridgap: 4%;
 
     h2 {
         color: white;
+        margin-left: calc(25% + .15em);
     }
     .column-long {
         background-color: white;
         padding: .5em;
         display: flex;
-        width: 980px;
+        // max-width: 980px;
         // margin-left: auto;
         // margin-right: auto;
 

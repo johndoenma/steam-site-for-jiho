@@ -37,11 +37,26 @@
   text-align: left;
 }
 
+.myswiper3 {
+  overflow:visible;
+}
+
 .swiper-button-next.bot,
 .swiper-button-prev.bot {
-  position: absolute;
-  left: 1500px;
-  top: 3720px;
-  color: rgb(255, 0, 0);
-  z-index: 100;
+  // position: absolute;
+  // left: 1500px;
+  // top: 3720px;
+  // color: rgb(255, 0, 0);
+  // z-index: 100;
+  border: 10px solid red;
+  opacity: 1;
+  top: -50px;
+}
+.swiper-button-next.bot {
+  left: auto;
+  right: 25%;
+}
+.swiper-button-prev.bot {
+  left: auto;
+  right: 27%;
 }
