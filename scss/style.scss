@@ -1,0 +1,37 @@
+
+/* GLOBAL RESETS */
+* { box-sizing: border-box;}
+
+
+//VARIABLES
+$color-text-body: rgba(0,0,0,.8);
+$color-text-headings: rgba(0,0,0,1);
+$color-accent: #46F6F6;
+$color-link: #56CBFF;
+$color-link-darker: #FF9F21;
+$color-accent-light: #fa5204;
+
+$color-lightgrey: rgba(0,0,0,.5);
+
+$font-family-sans: 'Proxima Nova', Helvetica, Arial, Helvetica, sans-serif;
+$font-family-serif: 'Condor', Georgia, 'Times New Roman', Times, serif;
+$font-family-number: 'Nimbus Sans', Helvetica, Arial, Helvetica, sans-serif;
+
+// BREAKPOINTS
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+// IMPORTS
+@import "partials/toc";
+@import "partials/typography";
+@import "partials/helpers"; 
+@import "partials/buttons";
+@import "partials/media"; 
+@import "partials/layout";  
+@import "partials/grid"; 
+@import "partials/structure";  
+@import "partials/sitenav"; 
+@import "partials/animations";  
+@import "partials/swiper";
+

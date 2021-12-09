@@ -1,0 +1,161 @@
+/* SITE STRUCTURE */
+
+.site-header {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin: 0;
+    }
+
+    .site-id {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        // max-width: 150px;
+        margin-right: .5em;
+        display: flex;
+        align-items: center;
+
+        img {
+            max-width: 50px;
+            margin-right: 1em;
+        }
+    }
+
+
+}
+
+/* SITE FOOTER */
+.site-footer {
+    background-color: black;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+section {
+    padding: 6em 0;
+    // min-height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+/* HERO SECTION */
+.target-top {
+    color: black;
+    background-color: black;
+    margin-bottom: 0;
+}
+
+.target {
+    color: white;
+    background-color: black;
+    padding: 0.5em 0;
+    font-style: italic;
+    text-align: center;
+}
+    
+
+
+.hero {
+    background-image: url(../img/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: black;
+    text-align: center;
+    padding: 0;
+    min-height: 563px;
+    display: flex;
+    place-items: center;
+
+    h1 {
+        position: absolute;
+        font-size: 129px;
+        font-family: 'Condor Condensed';
+        font-style: italic;
+        font-weight: 500;
+    }
+    .h1-1 {
+        top: 250px;
+        left: 50px;
+        z-index: 1;
+    }
+    .h1-2 {
+        color: $color-accent;
+        top: 250px;
+        left: 55px;
+    }
+    p {
+        margin: 2em auto;
+    }
+    h3 {
+        font-style: italic;
+        font-weight: lighter;
+        font-size: 58px;
+        z-index: 1;
+    }
+    h4 {
+        background: rgba(255, 153, 0, 0.562);
+        display: inline-block;
+        position: absolute;
+        font-size: 58px;
+        color: rgba(255, 153, 0, 0);
+        width: 100%;
+        top: 560px;
+    }
+
+    // IMAGE
+        .left {
+            position: absolute;
+            right: 1200px;
+            top: 337px;
+        }
+        .right {
+            position: absolute;
+            left: 1200px;
+            top: 216px;
+        }
+        .middle {
+            color: white;
+            position: absolute;
+            left: 800px;
+            top: 570px;
+            z-index: 2;
+        }
+        .mid {
+            color: $color-accent-light;
+            position: absolute;
+            left: 803px;
+            top: 570px;
+        }
+
+        .mid:before {
+            content: '';
+            width: 200px;
+            background-color: $color-link-darker;
+        }
+    }
+
+
+

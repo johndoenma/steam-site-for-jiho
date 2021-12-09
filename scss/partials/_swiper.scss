@@ -1,0 +1,47 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  }
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-scrollbar.scrollbar-so {
+  height: 16px;
+  transform: scaleX(.5);
+  background-image: linear-gradient(to bottom right, #46F6F6, #56CBFF);
+
+  .swiper-scrollbar-drag {
+    background: rgb(255, 255, 255);
+    height: 12px;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+  }
+}
+
+.swiper-scrollbar.scroll-mid {
+  display: none;
+}
+
+.swiper-slide.bot {
+  background-color: black;
+  text-align: left;
+}
+
+.swiper-button-next.bot,
+.swiper-button-prev.bot {
+  position: absolute;
+  left: 1500px;
+  top: 3720px;
+  color: rgb(255, 0, 0);
+  z-index: 100;
+}

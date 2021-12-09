@@ -1,0 +1,46 @@
+/* RESET BODY */
+body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* CONTAINER */ 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0; 
+}
+
+.container-middle {
+    max-width: 2000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-bot {
+    max-width: 2000px;
+    width: 100%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+/* MEDIA QUERIES */
+
+/* RESPONSIVE TYPOGRAPHY */
+
+// SMALL
+body { font-size: 87.5%; }
+
+@media (min-width: $breakpoint-small) {
+    body { font-size: 100%; }
+}
+
+@media (min-width: $breakpoint-large) {
+    body { font-size: 112.5%; }
+}
